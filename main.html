@@ -1,0 +1,63 @@
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyAtMcDKD9zsqh3Rrnt3Gu0-yspW-tlqq2o",
+        authDomain: "pivot-travel.firebaseapp.com",
+        databaseURL: "https://pivot-travel.firebaseio.com",
+        projectId: "pivot-travel",
+        storageBucket: "pivot-travel.appspot.com",
+        messagingSenderId: "379343587308",
+        appId: "1:379343587308:web:899fe269f7b4758da462c9",
+        measurementId: "G-459SZYGJ7M"
+};
+
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+var database = firebase.database();
+var auth = firebase.auth();
+</script>
+</head>
+<script src="main.js"></script>
+
+
+<div class="dropdown">
+    
+    <input type="text" placeholder="Search.." id="myInput" onclick="searchFunction()" onkeyup="filterFunction()"></input>
+    <div id="myDropdown" class="dropdown-content">
+      
+        <h2 id="city0" class="c">Atlanta</h2>
+        <a id="hotel0"  class="h">hotel atlanta</a>
+        <h2 id="city1" class="c">Austin</h2>
+        <a id="hotel1"  class="h">hotel Austin</a>
+        <a id="hotel1"  class="h">hotel Austin2</a>
+        <a id="hotel1"  class="h">hotel Austin3</a>
+        <h2 id="city2" class="c">Boston</h2>
+        <a id="hotel2"  class="h">hotel Boston</a>
+        <h2 id="city3" class="c">Charlotte</h2>
+        <a id="hotel3"  class="h">hotel Charlotte</a>
+        <h2 id="city4" class="c">Chicago</h2>
+        <a id="hotel4"  class="h">hotel Chicago</a>
+        <h2 id="city5" class="c">Cleveland</h2>
+        <a id="hotel5"  class="h">hotel Cleveland</a>
+        <h2 id="city6" class="c">Dallas</h2>
+        <a id="hotel6"  class="h">hotel Dallas</a>
+        <h2 id="city7" class="c">Detroit</h2>
+        <a id="hotel7"  class="h">hotel Detroit</a>
+        <h2 id="city8" class="c">Denver</h2>
+        <a id="hotel8"  class="h">hotel Denver</a>
+    </div>
+  </div>
+
+
+ 
+

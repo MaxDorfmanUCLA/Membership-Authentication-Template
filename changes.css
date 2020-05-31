@@ -1,0 +1,471 @@
+/* signin page */
+
+.signin {
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 359px;
+    margin: auto;
+    
+    height: 520px;
+    
+}
+
+form {
+    width: 280px;
+    text-align: center;
+}
+
+input {
+    width: 260px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+	margin-bottom: 20px;
+	height: 35px;
+}
+
+#emailInput {
+	margin-bottom: 20px;
+}
+
+#passwordInput {
+	margin-bottom: 20px;
+}
+
+input[type=button] {
+    border: none;
+    width: 200px;
+    background: white;
+    color: #000;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+	height: 45px;
+}
+
+input[type=button]:hover {
+    color: #fff;
+    background-color: black;
+}
+
+h2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+	font-size: 32px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+a {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: yellow;
+    text-decoration: blink;
+	
+}
+
+a:hover {
+    color: skyblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* ::placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+} */
+
+placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+.txt {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 2.6rem;
+}
+
+.forgot {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: yellow;
+    text-decoration: blink;
+}
+#error {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: red;
+    font-size: 18px;
+}
+
+
+/* Apply page */
+
+.apply {
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 359px;
+    margin: auto;
+    
+    height: 520px;
+    
+}
+
+form {
+    width: 280px;
+    text-align: center;
+}
+
+input {
+    width: 260px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
+    font-weight: 300px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+	margin-bottom: 20px;
+	height: 35px;
+}
+
+input[type=button] {
+    border: none;
+    width: 200px;
+    background: white;
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+	height: 45px;
+}
+
+input[type=button]:hover {
+    color: #fff;
+    background-color: black;
+}
+
+h2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+	font-size: 32px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    font-size: 35px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+a {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: yellow;
+    text-decoration: blink;
+	
+}
+
+a:hover {
+    color: skyblue;
+}
+
+#fname {
+	margin-bottom: 20px;
+}
+
+#lname {
+	margin-bottom: 20px;
+}
+
+#mail {
+	margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+.txt {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 2.6rem;
+}
+
+.forgot {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: yellow;
+    text-decoration: blink;
+}
+#error {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: red;
+    font-size: 18px;
+}
+
+/* Reset Page */
+
+.reset {
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 359px;
+    margin: auto;
+    height: 380px; 
+}
+
+form {
+    width: 280px;
+    text-align: center;
+}
+
+input {
+    width: 260px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
+    font-weight: 300px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+	margin-bottom: 20px;
+	height: 35px;
+}
+
+input[type=button] {
+    border: none;
+    width: 200px;
+    background: white;
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+	height: 45px;
+}
+
+input[type=button]:hover {
+    color: #fff;
+    background-color: black;
+}
+
+h2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+	font-size: 32px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    font-size: 35px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+a {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: yellow;
+    text-decoration: blink;
+	
+}
+
+a:hover {
+    color: skyblue;
+}
+
+#email {
+	margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+.txt {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 2.6rem;
+}
+
+.forgot {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: yellow;
+    text-decoration: blink;
+}
+#error {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: red;
+    font-size: 18px;
+}
+
+/* Signup page */
+
+.signup {
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 359px;
+    margin: auto;
+    
+    height: 520px;
+    
+}
+
+form {
+    width: 280px;
+    text-align: center;
+}
+
+input {
+    width: 260px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
+    font-weight: 300px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+	margin-bottom: 20px;
+	height: 35px;
+}
+
+input[type=button] {
+    border: none;
+    width: 200px;
+    background: white;
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+	height: 45px;
+}
+
+input[type=button]:hover {
+    color: #fff;
+    background-color: black;
+}
+
+h2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+	font-size: 32px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    font-size: 35px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+a {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: yellow;
+    text-decoration: blink;
+	
+}
+
+a:hover {
+    color: skyblue;
+}
+
+#fname {
+	margin-bottom: 20px;
+}
+
+#lname {
+	margin-bottom: 20px;
+}
+
+#mail {
+	margin-bottom: 20px;
+}
+
+#pword {
+	margin-bottom: 20px;
+}
+
+#pword2 {
+	margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+.txt {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 2.6rem;
+}
+
+.forgot {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: yellow;
+    text-decoration: blink;
+}
+#error {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: red;
+    font-size: 18px;
+}

@@ -1,0 +1,36 @@
+<link rel="stylesheet" type="text/css" href="reset.css"/>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyAtMcDKD9zsqh3Rrnt3Gu0-yspW-tlqq2o",
+        authDomain: "pivot-travel.firebaseapp.com",
+        databaseURL: "https://pivot-travel.firebaseio.com",
+        projectId: "pivot-travel",
+        storageBucket: "pivot-travel.appspot.com",
+        messagingSenderId: "379343587308",
+        appId: "1:379343587308:web:899fe269f7b4758da462c9",
+        measurementId: "G-459SZYGJ7M"
+};
+
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+var database = firebase.database();
+var auth = firebase.auth();
+</script>
+<script src="reset.js"></script>
+
+<div class="reset">
+    <form>
+        <h2>Password Reset/Retrieval</h2>
+        <input id="email" type="email" name="email" placeholder="Email"><br></br>
+        <a class="forgot" onclick="resetPassword(); return false;" href="#"><input type="button" value="Send link"></a><br></br>
+        <a href="signin.html">Go back to Home page</a>
+        <p id="error"></p>
+    </form>
+</div>

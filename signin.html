@@ -1,0 +1,42 @@
+<link rel="stylesheet" type="text/css" href="signin.css"/>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyAtMcDKD9zsqh3Rrnt3Gu0-yspW-tlqq2o",
+        authDomain: "pivot-travel.firebaseapp.com",
+        databaseURL: "https://pivot-travel.firebaseio.com",
+        projectId: "pivot-travel",
+        storageBucket: "pivot-travel.appspot.com",
+        messagingSenderId: "379343587308",
+        appId: "1:379343587308:web:899fe269f7b4758da462c9",
+        measurementId: "G-459SZYGJ7M"
+};
+
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+var database = firebase.database();
+var auth = firebase.auth();
+</script>
+<script src="signin.js"></script>
+
+<div class="signin">
+    <form id="signinForm">
+        <h2>Log In</h2>
+        <input id="emailInput" type="text" name="email" placeholder="Email"><br></br>
+        <input id="passwordInput" type="password" name="pass" placeholder="Password"><br></br>
+        <a onclick="myFunction(); return false;" href="#"><input type="button" value="Log In"></a><br></br>
+        <div id="container">
+            <a class="reset" href="reset.html">Reset password</a>
+            <a class="forgot" href="reset.html">Forgot password</a><br></br>
+        </div>
+        <p class="txt">Don't have an account?</p>
+        <a href="signup.html">Sign Up</a>
+        <p id="error"></p>
+    </form>
+</div>
